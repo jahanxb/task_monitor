@@ -1,0 +1,67 @@
+{
+  "_from": "node-browser-history",
+  "_id": "node-browser-history@2.4.3",
+  "_inBundle": false,
+  "_integrity": "sha512-kF89wg//GnQUk0MFANYetY0peouzN2EFetkImbIQOJ+RyBa9TbwSKx9mcpxiVQZW4s3QOV2dtfqlee6GRXk9kw==",
+  "_location": "/node-browser-history",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "node-browser-history",
+    "name": "node-browser-history",
+    "escapedName": "node-browser-history",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-browser-history/-/node-browser-history-2.4.3.tgz",
+  "_shasum": "a998496e2e83732ca3715c2d2ab95a591d345dc8",
+  "_spec": "node-browser-history",
+  "_where": "D:\\PycharmProjects\\monitor_me",
+  "author": {
+    "name": "Lance Thompson"
+  },
+  "bugs": {
+    "url": "https://github.com/MyOutDeskLLC/node-browser-history/issues"
+  },
+  "build": {
+    "extraResources": [],
+    "win": {
+      "extraResources": []
+    },
+    "osx": {
+      "extraResources": []
+    }
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "sqlite-async": "github:tance77/sqlite-async",
+    "uuid": "^8.1.0"
+  },
+  "deprecated": false,
+  "description": "This application aims to retrieve browser history from all browsers on the user's computer. It will attempt to read from some common locations.",
+  "engine": {
+    "node": "12"
+  },
+  "homepage": "https://github.com/MyOutDeskLLC/node-browser-history#readme",
+  "keywords": [
+    "browser",
+    "history"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "node-browser-history",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyOutDeskLLC/node-browser-history.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "version": "2.4.3"
+}
