@@ -12,6 +12,7 @@ sys_info = dict(
     SystemFamily=str(my_system.SystemFamily)
 )
 
+
 print(sys_info)
 with open('D://PycharmProjects//monitor_me//sys_info.json', 'w') as file:
     json.dump(sys_info, file)
